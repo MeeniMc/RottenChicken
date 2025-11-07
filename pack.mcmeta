@@ -1,7 +1,19 @@
 {
-	"pack": {
-		"pack_format": 48,
-		"supported_formats": [48, 61],
-		"description": "§6Rotten Chicken§r: §oWhat tastes like chicken? Zombie flesh is what!\n §2v1.61.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/rotten-chicken"
+	"pack":{
+		"pack_format": 15,
+		"supported_formats": [15, 88],
+		"min_format": 15,
+		"max_format": 88,
+		"description": "§6Rotten Chicken§r: §oWhat tastes like chicken? Zombie flesh is what!\n §2v1.88.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/rotten-chicken"
+	},
+	"overlays":{
+		"entries": [
+          {
+            "directory": "1.21-1.21.1",
+            "min_format": 43,
+            "max_format": 48,
+            "formats": [43, 48]
+          }
+		]
 	}
 }

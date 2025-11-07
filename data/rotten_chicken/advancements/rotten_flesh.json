@@ -3,7 +3,7 @@
   "criteria": {
     "has_rotten_flesh": {
       "conditions": {
-        "items": [{ "items": "minecraft:rotten_flesh" }]
+        "items": [{ "items": ["minecraft:rotten_flesh"] }]
       },
       "trigger": "minecraft:inventory_changed"
     },
